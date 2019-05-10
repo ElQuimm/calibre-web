@@ -25,7 +25,7 @@ msgstr "non installato"
 
 #: cps/converter.py:40 cps/converter.py:56
 msgid "Excecution permissions missing"
-msgstr "Mancano le autorizzazioni di esecuzione"
+msgstr "Mancano le autorizzazioni per poter eseguire"
 
 #: cps/converter.py:66
 msgid "not configured"
@@ -48,7 +48,7 @@ msgstr "Invia a Kindle"
 
 #: cps/helper.py:99 cps/helper.py:117 cps/helper.py:206
 msgid "This e-mail has been sent via Calibre-Web."
-msgstr "Questo e-mail è stato spedito tramite Calibre-Web."
+msgstr "Questo e-mail è stato spedito da Calibre-Web."
 
 #: cps/helper.py:110
 #, python-format
@@ -167,7 +167,7 @@ msgstr "Dati inattesi durante il processo di aggiornamento"
 
 #: cps/updater.py:258 cps/updater.py:416
 msgid "No update available. You already have the latest version installed"
-msgstr "Nessun aggiornamento disponibile. Hai già installato l'ultima versione disponibile"
+msgstr "Nessun aggiornamento disponibile. Hai già installato l'ultima versione"
 
 #: cps/updater.py:270 cps/updater.py:501 cps/updater.py:503 cps/web.py:1206
 msgid "HTTP Error"
@@ -191,7 +191,7 @@ msgstr "Nuovo aggiornamento disponibile. Clicca sul pulsante sottostante per agg
 
 #: cps/updater.py:335
 msgid "Could not fetch update information"
-msgstr "Impossibile recuperare informazioni di aggiornamento"
+msgstr "Impossibile recuperare le informazioni di aggiornamento"
 
 #: cps/updater.py:403
 msgid "No release information available"
@@ -212,15 +212,15 @@ msgstr "Richiesta del pacchetto di aggiornamento"
 
 #: cps/web.py:1200
 msgid "Downloading update package"
-msgstr "Scarico il pacchetto di aggiornamento"
+msgstr "Scaricamento del pacchetto di aggiornamento"
 
 #: cps/web.py:1201
 msgid "Unzipping update package"
-msgstr "Decomprimo il pacchetto di aggiornamento"
+msgstr "Decompressione del pacchetto di aggiornamento"
 
 #: cps/web.py:1202
 msgid "Replacing files"
-msgstr "Sostituzione files"
+msgstr "Sostituzione dei file"
 
 #: cps/web.py:1203
 msgid "Database connections are closed"
@@ -312,7 +312,7 @@ msgstr "Categoria: %(name)s"
 
 #: cps/templates/layout.html:73 cps/web.py:1654
 msgid "Tasks"
-msgstr "Compito"
+msgstr "Attività"
 
 #: cps/web.py:1688
 msgid "Statistics"
@@ -336,11 +336,11 @@ msgstr "Eseguo l'arresto del server, per favore chiudi la finestra."
 
 #: cps/web.py:1959
 msgid "Published after "
-msgstr "Pubblicato dopo "
+msgstr "Pubblicato dopo il "
 
 #: cps/web.py:1966
 msgid "Published before "
-msgstr "Pubblicato prima "
+msgstr "Pubblicato prima del "
 
 #: cps/web.py:1980
 #, python-format
@@ -372,7 +372,7 @@ msgstr "Leggere un libro"
 
 #: cps/web.py:2205
 msgid "Error opening eBook. Fileformat is not supported."
-msgstr ""
+msgstr "Errore nell'appertura del libro. Il formato del file non è supportato."
 
 #: cps/web.py:2255 cps/web.py:3176
 msgid "Please fill out all fields!"
@@ -426,7 +426,7 @@ msgstr "Successo! Torna al tuo dispositivo"
 
 #: cps/web.py:2413
 msgid "Please configure the SMTP mail settings first..."
-msgstr "Configurare dapprima le impostazioni del server SMTP..."
+msgstr "Configura dapprima le impostazioni del server SMTP..."
 
 #: cps/web.py:2418
 #, python-format
@@ -444,7 +444,7 @@ msgstr "Per favore configura dapprima il tuo indirizzo e-mail di Kindle..."
 
 #: cps/web.py:2435 cps/web.py:2487
 msgid "Invalid shelf specified"
-msgstr "Lo scaffale specificato non è valevole"
+msgstr "Lo scaffale specificato non è valido"
 
 #: cps/web.py:2442
 #, python-format
@@ -543,7 +543,7 @@ msgstr "Errore durante l'apertura dello scaffale. Lo scaffale non esiste o non �
 #: cps/web.py:2715
 #, python-format
 msgid "Change order of Shelf: '%(name)s'"
-msgstr "Modificare l'ordine dello scaffale: '%(name)s'"
+msgstr "Modifica l'ordine dello scaffale: '%(name)s'"
 
 #: cps/web.py:2744 cps/web.py:3182
 msgid "E-mail is not from valid domain"
@@ -556,7 +556,7 @@ msgstr "Profilo di %(name)s"
 
 #: cps/web.py:2786
 msgid "Found an existing account for this e-mail address."
-msgstr "Ho trovato un account creato in precedenza con questo e-mail."
+msgstr "Esiste un account creato in precedenza con questo e-mail."
 
 #: cps/web.py:2789
 msgid "Profile updated"
@@ -576,7 +576,7 @@ msgstr "Configurazione dell'interfaccia utente"
 
 #: cps/web.py:2937
 msgid "Import of optional Google Drive requirements missing"
-msgstr "Importa parametri mancanti per Google Drive"
+msgstr "Manca l'importazione dei requisiti opzionali di Google Drive"
 
 #: cps/web.py:2940
 msgid "client_secrets.json is missing or not readable"
@@ -697,7 +697,7 @@ msgstr "Ho aggiunto l'estensione %(ext)s al libro %(book)s"
 
 #: cps/web.py:3579 cps/web.py:3652
 msgid "Cover is not a supported imageformat (jpg/png/webp), can't save"
-msgstr ""
+msgstr "Il file della copertina non è in un formato immagine supportato (jpg/png/webp): non posso salvarlo"
 
 #: cps/web.py:3611 cps/web.py:3620
 msgid "unknown"
@@ -733,7 +733,7 @@ msgstr "File %(title)s"
 
 #: cps/web.py:3902
 msgid "Source or destination format for conversion missing"
-msgstr "Il formato sorgente o quello di destinazione per la conversione mancano"
+msgstr "Mancano o il formato sorgente o quello di destinazione, necessari alla conversione"
 
 #: cps/web.py:3912
 #, python-format
@@ -777,7 +777,7 @@ msgstr "DLS"
 
 #: cps/templates/admin.html:13 cps/templates/layout.html:76
 msgid "Admin"
-msgstr "Admin"
+msgstr "Amministrazione"
 
 #: cps/templates/admin.html:14 cps/templates/detail.html:22
 #: cps/templates/detail.html:31
@@ -866,11 +866,11 @@ msgstr "Ricollegare al DB Calibre"
 
 #: cps/templates/admin.html:108
 msgid "Restart Calibre-Web"
-msgstr "Riavvia Calibre-Web"
+msgstr "Riavviare Calibre-Web"
 
 #: cps/templates/admin.html:109
 msgid "Stop Calibre-Web"
-msgstr "Arresta Calibre-Web"
+msgstr "Arrestare Calibre-Web"
 
 #: cps/templates/admin.html:115
 msgid "Update"
@@ -1008,7 +1008,7 @@ msgstr "Valutazione"
 
 #: cps/templates/book_edit.html:87
 msgid "Cover URL (jpg, cover is downloaded and stored in database, field is afterwards empty again)"
-msgstr "URL della copertina (jpg, la copertina viene caricata e salvata nel database, dopodiché il campo viene nuovamente svuotato)"
+msgstr "URL della copertina (il file jpg della copertina viene caricato e salvato nel database, dopodiché il campo viene nuovamente svuotato)"
 
 #: cps/templates/book_edit.html:91
 msgid "Upload Cover from local drive"
@@ -1046,7 +1046,7 @@ msgstr "visualizzare il libro dopo la modifica"
 
 #: cps/templates/book_edit.html:176 cps/templates/book_edit.html:212
 msgid "Get metadata"
-msgstr "Ottieni metadati"
+msgstr "Ottieni i metadati"
 
 #: cps/templates/book_edit.html:177 cps/templates/config_edit.html:224
 #: cps/templates/config_view_edit.html:178 cps/templates/login.html:20
@@ -1114,7 +1114,7 @@ msgstr "Posizione del database di Calibre"
 
 #: cps/templates/config_edit.html:24
 msgid "Use Google Drive?"
-msgstr "Usa Google Drive?"
+msgstr "Utilizzo Google Drive?"
 
 #: cps/templates/config_edit.html:30
 msgid "Google Drive config problem"
@@ -1126,7 +1126,7 @@ msgstr "Autenticazione Google Drive"
 
 #: cps/templates/config_edit.html:40
 msgid "Please hit submit to continue with setup"
-msgstr "Per favore premi invio per proseguire con la configurazione"
+msgstr "Per favore premi invio per proseguire nella configurazione"
 
 #: cps/templates/config_edit.html:43
 msgid "Please finish Google Drive setup after login"
@@ -1154,7 +1154,7 @@ msgstr "Porta del server"
 
 #: cps/templates/config_edit.html:89
 msgid "SSL certfile location (leave it empty for non-SSL Servers)"
-msgstr "Percorso del certfile SSL (lascia vuoto per una configurazione del server senza SSL)"
+msgstr "Percorso del Certfile SSL (lascia vuoto per una configurazione del server senza SSL)"
 
 #: cps/templates/config_edit.html:93
 msgid "SSL Keyfile location (leave it empty for non-SSL Servers)"
@@ -1194,7 +1194,7 @@ msgstr "Percorso e nome del logfile (senza indicazioni sarà calibre-web.log)"
 
 #: cps/templates/config_edit.html:140
 msgid "Feature Configuration"
-msgstr "Configurazione della caratteristica"
+msgstr "Configurazione di funzionalità"
 
 #: cps/templates/config_edit.html:148
 msgid "Enable uploading"
@@ -1214,7 +1214,7 @@ msgstr "Attiva login remoto (\"magic link\")"
 
 #: cps/templates/config_edit.html:165
 msgid "Use"
-msgstr "Uso"
+msgstr "Utilizzo"
 
 #: cps/templates/config_edit.html:166
 msgid "Obtain an API Key"
@@ -1300,7 +1300,7 @@ msgstr "Collega lo stato letto/non letto nella colonna di Calibre"
 
 #: cps/templates/config_view_edit.html:55
 msgid "Regular expression for title sorting"
-msgstr "Espressione regolare per 'ordine di visualizzazione del titolo"
+msgstr "Espressione regolare per l'ordine di visualizzazione del titolo"
 
 #: cps/templates/config_view_edit.html:59
 msgid "Tags for Mature Content"
@@ -1316,7 +1316,7 @@ msgstr "Utente amministratore"
 
 #: cps/templates/config_view_edit.html:85 cps/templates/user_edit.html:113
 msgid "Allow Downloads"
-msgstr "Consenti download"
+msgstr "Consenti lo scaricamento"
 
 #: cps/templates/config_view_edit.html:89 cps/templates/user_edit.html:117
 msgid "Allow Uploads"
@@ -1324,7 +1324,7 @@ msgstr "Consenti caricamenti"
 
 #: cps/templates/config_view_edit.html:93 cps/templates/user_edit.html:121
 msgid "Allow Edit"
-msgstr "Consenti modifica"
+msgstr "Consenti la modifica di libri"
 
 #: cps/templates/config_view_edit.html:97 cps/templates/user_edit.html:125
 msgid "Allow Delete books"
@@ -1356,7 +1356,7 @@ msgstr "Mostra i libri ordinati"
 
 #: cps/templates/config_view_edit.html:135 cps/templates/user_edit.html:62
 msgid "Show hot books"
-msgstr "Mostra libri popolari"
+msgstr "Mostra i libri popolari"
 
 #: cps/templates/config_view_edit.html:139 cps/templates/user_edit.html:66
 msgid "Show best rated books"
@@ -1392,7 +1392,7 @@ msgstr "Mostra libri a caso nella vista dettagliata"
 
 #: cps/templates/config_view_edit.html:171 cps/templates/user_edit.html:109
 msgid "Show mature content"
-msgstr "Mostra sezione adulti"
+msgstr "Mostra la sezione per adulti"
 
 #: cps/templates/detail.html:63
 msgid "Read in browser"
@@ -1420,7 +1420,7 @@ msgstr "Marca come letto"
 
 #: cps/templates/detail.html:186
 msgid "Read"
-msgstr "Leggere"
+msgstr "Segnalare nella sezione dei libri da leggere"
 
 #: cps/templates/detail.html:196
 msgid "Description:"
@@ -1436,7 +1436,7 @@ msgstr "Modifica metadati"
 
 #: cps/templates/email_edit.html:15
 msgid "SMTP port (usually 25 for plain SMTP and 465 for SSL and 587 for STARTTLS)"
-msgstr "Porta SMTP (normalmente 25 senza condifica, 465 per codifica SSL e 587 per STARTTLS)"
+msgstr "Porta SMTP (normalmente 25 senza condifica, 465 per SSL e 587 per STARTTLS)"
 
 #: cps/templates/email_edit.html:19
 msgid "Encryption"
@@ -1464,7 +1464,7 @@ msgstr "Dall'email"
 
 #: cps/templates/email_edit.html:38
 msgid "Save settings"
-msgstr "Salva le impostazioni"
+msgstr "Salvare le impostazioni"
 
 #: cps/templates/email_edit.html:39
 msgid "Save settings and send Test E-Mail"
@@ -1525,7 +1525,7 @@ msgstr "Libri più votati"
 
 #: cps/templates/index.xml:29
 msgid "Popular publications from this catalog based on Rating."
-msgstr "Pubblicazioni popolari di questo catalogo basate sui voti."
+msgstr "Pubblicazioni popolari di questo catalogo in base ai voti."
 
 #: cps/templates/index.xml:32
 msgid "New Books"
@@ -1533,7 +1533,7 @@ msgstr "Nuovi libri"
 
 #: cps/templates/index.xml:36
 msgid "The latest Books"
-msgstr "Gli ultimi Libri"
+msgstr "Gli ultimi libri"
 
 #: cps/templates/index.xml:43
 msgid "Show Random Books"
@@ -1553,7 +1553,7 @@ msgstr "Editori"
 
 #: cps/templates/index.xml:73
 msgid "Books ordered by publisher"
-msgstr "Libri ordinati per editori"
+msgstr "Libri ordinati per editore"
 
 #: cps/templates/index.xml:80
 msgid "Books ordered by category"
@@ -1618,11 +1618,11 @@ msgstr "per favore non aggiornare la pagina"
 
 #: cps/templates/layout.html:122
 msgid "Browse"
-msgstr "Navigare"
+msgstr "Naviga"
 
 #: cps/templates/layout.html:124
 msgid "Recently Added"
-msgstr "Aggiunto recentemente"
+msgstr "Aggiunto di recente"
 
 #: cps/templates/layout.html:129
 msgid "Sorted Books"
@@ -1651,7 +1651,7 @@ msgstr "Discendente"
 
 #: cps/templates/layout.html:153
 msgid "Discover"
-msgstr "Per scoprire"
+msgstr "Scoprire - libri casuali"
 
 #: cps/templates/layout.html:156
 msgid "Categories"
@@ -1667,7 +1667,7 @@ msgstr "Crea uno scaffale"
 
 #: cps/templates/layout.html:181 cps/templates/stats.html:3
 msgid "About"
-msgstr "Informazioni su"
+msgstr "Informazioni"
 
 #: cps/templates/layout.html:195
 msgid "Previous"
@@ -1675,7 +1675,7 @@ msgstr "Precedente"
 
 #: cps/templates/layout.html:222
 msgid "Book Details"
-msgstr "Dettagli ebook"
+msgstr "Dettagli libro"
 
 #: cps/templates/layout.html:256
 msgid "Upload done, processing, please wait..."
@@ -1773,7 +1773,7 @@ msgstr "Larghezza"
 
 #: cps/templates/readcbr.html:132
 msgid "Height"
-msgstr "Alteszza"
+msgstr "Altezza"
 
 #: cps/templates/readcbr.html:133
 msgid "Native"
@@ -1797,19 +1797,19 @@ msgstr "Verticale"
 
 #: cps/templates/readcbr.html:158
 msgid "Direction"
-msgstr ""
+msgstr "Direzione"
 
 #: cps/templates/readcbr.html:161
 msgid "Left to Right"
-msgstr ""
+msgstr "da sinistra a destra"
 
 #: cps/templates/readcbr.html:162
 msgid "Right to Left"
-msgstr ""
+msgstr "da destra a sinistra"
 
 #: cps/templates/readpdf.html:29
 msgid "PDF.js viewer"
-msgstr "Visore PDF.js"
+msgstr "Visualizzatore PDF.js"
 
 #: cps/templates/readtxt.html:6
 msgid "Basic txt Reader"
@@ -1865,7 +1865,7 @@ msgstr "Data di pubblicazione fino a"
 
 #: cps/templates/search_form.html:43
 msgid "Exclude Tags"
-msgstr "Elimina i tag"
+msgstr "Elimina tag"
 
 #: cps/templates/search_form.html:63
 msgid "Exclude Series"
@@ -1885,7 +1885,7 @@ msgstr "Valutazione inferiore a"
 
 #: cps/templates/shelf.html:7
 msgid "Delete this Shelf"
-msgstr "Cancellare questo scaffale"
+msgstr "Cancella questo scaffale"
 
 #: cps/templates/shelf.html:8
 msgid "Edit Shelf"
@@ -1909,7 +1909,7 @@ msgstr "questo scaffale deve essere pubblico?"
 
 #: cps/templates/shelf_order.html:5
 msgid "Drag 'n drop to rearrange order"
-msgstr "Riordina tramite drag and drop"
+msgstr "Riordina tramite \"drag and drop\""
 
 #: cps/templates/stats.html:7
 msgid "Calibre library statistics"
@@ -2001,7 +2001,7 @@ msgstr "Elimina questo utente"
 
 #: cps/templates/user_edit.html:156
 msgid "Recent Downloads"
-msgstr "Download Recenti"
+msgstr "Download recenti"
 
 #~ msgid "Afar"
 #~ msgstr "Afar"
@@ -3270,5 +3270,5 @@ msgstr "Download Recenti"
 #~ msgstr "La copertina non è un file in formato jpg: non posso salvare"
 
 #~ msgid "Preparing document for printing..."
-#~ msgstr "Preparo documento per la stampa..."
+#~ msgstr "Preparo il documento per la stampa..."
 
